@@ -277,6 +277,7 @@ def randBuildLSB():
     END = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
     ##ua = 'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model2)} Build/SP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
     ua = '[FBAN/FB4A;FBAV/431.0.0.53.10;FBBV/429501109;FBDM/{density=1.2,width=1280,height=960};FBLC/en_PK;FBRV/0;FBCR/Robi;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/RMX471C;FBSV/10;FBOP/1;FBCA/x64:armeabi-v7a;]'
+    ua = '[FBAN/FB4A;FBAV/59.0.0.0.189;FBBV/19392060;FBDM/{density=3.0,width=1080,height=1920};FBLC/es_ES;FBCR/72234;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 2;FBSV/5.0.2;nullFBCA/armeabi-v7a:armeabi;]'
     return ua
 
 def randFBAN():
